@@ -7,22 +7,22 @@ html, body {
   width: 100%;
 }
 body {
-  color: #394c4a;
+  color: #4f6c69;
   font-family: 'Work Sans', helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
 }
 h1 {
-  font-family: 'Unica One', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 3rem;
 }
 h2 {
-  font-family: 'Unica One', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 2.3rem;
 }
 h3 {
-  font-family: 'Unica One', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
 }
 h4 {
@@ -74,7 +74,7 @@ hr {
 }
 .navbar-brand,
 .navbar-nav > li > a {
-  font-family: 'Unica One', cursive;
+  font-family: 'Raleway', sans-serif;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -145,7 +145,7 @@ hr {
   Jumbotron Styles
 ===================== */
 .jumbotron {
-  background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url("assets/imgs/jumbotron.jpg") center center fixed;
+  background: linear-gradient(rgba(62,62,62,0.9), rgba(0,0,0,0.9)), url("assets/imgs/jumbotron.jpg") center center fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -450,26 +450,26 @@ footer.row {
   box-shadow: 0 1px 3px rgba(8,33,30,0.5);
 }
 .bg-white {
-  background-color: #fffefd;
+  background-color: #1c1c1c;
   position: relative;
 }
 .bg-pink {
-  background-color: #df3778;
+  background-color: #fe3f3f;
   color: #fffefd;
   position: relative;
 }
 .bg-star-y {
-  background: #ffce3f url(assets/imgs/yellow-star.png) fixed;
+  background: #ffce3f url(assets/imgs/green-star.png) fixed;
   background-size: 60px;
   color: #fffefd;
 }
 .bg-star-g {
-  background: #29a598 url(assets/imgs/green-star.png) fixed;
+  background: #29a598 url(assets/imgs/yellow-star.png) fixed;
   background-size: 60px;
   color: #fffefd;
 }
 .bg-honeycomb {
-  background: #fffefd url(assets/imgs/honeycomb.png) fixed;
+  background: #fffefd url(assets/imgs/honeycomb-2.png) fixed;
   background-size: 24px;
 }
 .gray {
