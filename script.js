@@ -9,7 +9,34 @@ $(document).ready(function () {
 	var $modalBackdropDiv = $('<div class="modal-backdrop fade in"></div>');
 	var $scrollButton = $('.scroll');
 	var $socialIcon = $('.social');
+    
+   
 
+    
+    $(window).scroll(function(){
+        // This is then function used to detect if the element is scrolled into view
+        function elementScrolled(elem)
+        {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+            var elemTop = $(elem).offset().top;
+            return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+        }
+
+        // This is where we use the function to detect if "#portfolio" is scrolled into view,
+        if(elementScrolled('#portfolio')) {
+
+
+            $('.skillbar').each(function(){
+                $(this).find('.skillbar-bar').animate({
+                    width:jQuery(this).attr('data-percent')
+                },2500);
+            });
+
+        }
+    });
+
+    
 	// Fixed Nav after scroll
 	function scroll() {
 		if ($(window).scrollTop() >= $offsetY) {
@@ -64,7 +91,18 @@ $(document).ready(function () {
 		$('html, body').animate({
 			scrollTop: $($link).offset().top - 60
 		}, 900);
+        if($link == "#portfolio"){
+
+            /* animate skill bars */
+            $('.skillbar').each(function(){
+                $(this).find('.skillbar-bar').animate({
+                    width:jQuery(this).attr('data-percent')
+                },2500);
+            });
+        }
 	});
+    
+    
 
 	// Social icons hover effect
 	$socialIcon.on({
