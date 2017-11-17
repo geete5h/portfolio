@@ -145,7 +145,7 @@ hr {
   Jumbotron Styles
 ===================== */
 .jumbotron {
-  background: linear-gradient(rgba(62,62,62,0.9), rgba(0,0,0,0.9)), url("assets/imgs/jumbotron.jpg") center center fixed;
+    background: linear-gradient(rgba(62,62,62,0.9), rgba(0,0,0,0.9)), url("https://github.com/geete5h/portfolio/blob/master/assets/imgs/jumbotron.jpg?raw=true") center center fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -459,17 +459,17 @@ footer.row {
   position: relative;
 }
 .bg-star-y {
-  background: #ffce3f url(assets/imgs/green-star.png) fixed;
+    background: #ffce3f url("https://github.com/geete5h/portfolio/blob/master/assets/imgs/green-star.png?raw=true") fixed;
   background-size: 60px;
   color: #fffefd;
 }
 .bg-star-g {
-  background: #29a598 url(assets/imgs/yellow-star.png) fixed;
+    background: #29a598 url("https://github.com/geete5h/portfolio/blob/master/assets/imgs/yellow-star.png?raw=true") fixed;
   background-size: 60px;
   color: #fffefd;
 }
 .bg-honeycomb {
-  background: #fffefd url(assets/imgs/honeycomb-2.png) fixed;
+    background: #fffefd url("https://github.com/geete5h/portfolio/blob/master/assets/imgs/honeycomb-2.png?raw=true") fixed;
   background-size: 24px;
 }
 .gray {
